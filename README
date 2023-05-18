@@ -1,0 +1,26 @@
+This is a template for the Jetpack Compose project which includes some libraries for DI,
+HTTP and Android Jetpack. Please follow the steps below
+
+1) Add Android SDK path (local.properties)
+
+2) Name your application, check:
+   - settings.gradle.kts (rootProject.name)
+   - app/build.gradle.kts (android.namespace, android.defaultConfig.applicationId)
+   - app/src/main/res/values/strings.xml (app_name)
+   - app/src/main/AndroidManifest.xml (package)
+
+3) Change Java package (app/src/main/java/com/example/app)
+
+4) Remove C++ files and configuration if you don't need it, check:
+   - app/src/main/cpp
+   - app/build.gradle.kts (android.externalNativeBuild)
+
+5) Check libraries versions ([versions] in gradle/libs.versions.toml)
+
+6) Remove comments if you need some libraries (Ktor, Koin, etc.), check:
+   - gradle/libs.versions.toml
+   - app/build.gradle.kts (uncomment dependencies)
+
+7) Remove this file
+
+Template created by IlyaDreamix (https://github.com/ilyadreamix25)
