@@ -1,7 +1,9 @@
 This is a template for the Jetpack Compose project which includes some libraries for DI,
 HTTP and Android Jetpack. Please follow the steps below
 
-1) Add Android SDK path (local.properties)
+1) Add Android SDK path:
+   - Create local.properties file
+   - Write sdk.dir=PATH, where PATH is an Android SDK path in your system
 
 2) Name your application, check:
    - settings.gradle.kts (rootProject.name)
